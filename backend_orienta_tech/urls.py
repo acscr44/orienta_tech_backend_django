@@ -23,5 +23,5 @@ def root_redirect(request):
 
 urlpatterns = [
     path('', root_redirect),
-    path('submit-cuestionario/', views.submit_cuestionario, name='submit_cuestionario'),
+    path('submit_cuestionario/', views.submit_cuestionario, name='submit_cuestionario'),
 ]
